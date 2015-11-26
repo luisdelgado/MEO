@@ -1,0 +1,31 @@
+﻿Build started 26/11/2015 07:37:29.
+     1>Project "C:\Users\lhds\Downloads\MEO\Projeto Base PG - OpenGL.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\lhds\Downloads\MEO\Dependencies\OpenCV\include\ /IC:\Users\lhds\Downloads\MEO\Dependencies\OpenGL\Include\ /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\lhds\Downloads\MEO\Intermediary\Debug\\" /Fd"C:\Users\lhds\Downloads\MEO\Intermediary\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Code\Main.cpp
+         Main.cpp
+     1>c:\users\lhds\downloads\meo\code\main.cpp(390): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lhds\downloads\meo\code\main.cpp(514): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\lhds\downloads\meo\code\main.cpp(516): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\lhds\downloads\meo\code\main.cpp(518): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\lhds\downloads\meo\code\main.cpp(520): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\lhds\downloads\meo\code\main.cpp(522): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\lhds\downloads\meo\code\main.cpp(524): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\lhds\downloads\meo\code\main.cpp(526): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\lhds\downloads\meo\code\main.cpp(528): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\lhds\downloads\meo\code\main.cpp(530): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\lhds\downloads\meo\code\main.cpp(532): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\lhds\downloads\meo\code\main.cpp(534): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\lhds\downloads\meo\code\main.cpp(536): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lhds\Downloads\MEO\Output\Debug\Projeto 2  - Resp.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\lhds\Downloads\MEO\Dependencies\OpenCV\x86\vc12\lib /LIBPATH:C:\Users\lhds\Downloads\MEO\Dependencies\OpenGL\Lib\ opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lhds\Downloads\MEO\Output\Debug\Projeto 2  - Resp.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lhds\Downloads\MEO\Output\Debug\Projeto 2  - Resp.lib" /MACHINE:X86 C:\Users\lhds\Downloads\MEO\Intermediary\Debug\Defs.obj
+         C:\Users\lhds\Downloads\MEO\Intermediary\Debug\Main.obj
+         C:\Users\lhds\Downloads\MEO\Intermediary\Debug\Point.obj
+         C:\Users\lhds\Downloads\MEO\Intermediary\Debug\util.obj
+         Projeto Base PG - OpenGL.vcxproj -> C:\Users\lhds\Downloads\MEO\Output\Debug\Projeto 2  - Resp.exe
+     1>Done Building Project "C:\Users\lhds\Downloads\MEO\Projeto Base PG - OpenGL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.74
