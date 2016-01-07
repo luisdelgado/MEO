@@ -28,7 +28,6 @@ CascadeClassifier hand_cascade;
 string window_name = "MultiMidia";
 RNG rng(12345);
 
-/** @function main */
 int main(int argc, const char** argv)
 {
 	cv::VideoCapture capture;
@@ -69,16 +68,15 @@ int main(int argc, const char** argv)
 			print(frame, quad3);
 			print(frame, quad4);
 
-		cv:Point center = detectAndDisplay(frame);
+			cv:Point center = detectAndDisplay(frame);
 
 			if ((isInside(center, quad1)) || (isInside(center, quad2)) || (isInside(center, quad3)) || (isInside(center, quad4))){
 				puts("\a");
-				cout << center.x << " " << center.y << std::endl;
 			}
 		}
 		else
 		{
-			printf(" --(!) No captured frame -- Break!"); break;
+			printf("Frame Não Encontrado"); break;
 		}
 
 		int c = waitKey(10);
@@ -88,7 +86,6 @@ int main(int argc, const char** argv)
 	return 0;
 }
 
-/** @function detectAndDisplay */
 cv::Point detectAndDisplay(Mat frame)
 {
 	std::vector<Rect> hand;
@@ -97,9 +94,8 @@ cv::Point detectAndDisplay(Mat frame)
 	cvtColor(frame, frame_gray, CV_BGR2GRAY);
 	equalizeHist(frame_gray, frame_gray);
 
-	//-- Detect hand
+	// Cascade Hand
 	hand_cascade.detectMultiScale(frame_gray, hand, 1.1, 2, 0 | CV_HAAR_SCALE_IMAGE, Size(30, 30));
-
 
 	// Desenhando o Circulo
 	Point center(hand[0].x + hand[0].width*0.5, hand[0].y + hand[0].height*0.5);

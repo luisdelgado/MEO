@@ -11,16 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Code\Defs.h" />
     <ClInclude Include="Code\Main.h" />
-    <ClInclude Include="Code\Point.h" />
-    <ClInclude Include="Code\util.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Code\Defs.cpp" />
     <ClCompile Include="Code\Main.cpp" />
-    <ClCompile Include="Code\Point.cpp" />
-    <ClCompile Include="Code\util.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1F1971E4-3C3C-4098-A4A3-E06B8EB846AA}</ProjectGuid>
